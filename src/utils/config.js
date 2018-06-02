@@ -8,6 +8,7 @@ let config = {
     defaultTooltipType: 'is-primary',
     defaultTooltipAnimated: false,
     defaultInputAutocomplete: 'on',
+    defaultInputSpellcheck: 'on',
     defaultDateFormatter: null,
     defaultDateParser: null,
     defaultDayNames: null,
