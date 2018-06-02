@@ -7,6 +7,7 @@
             :class="inputClasses"
             :type="newType"
             :autocomplete="newAutocomplete"
+            :spellcheck="newSpellcheck"
             :maxlength="maxlength"
             :value="newValue"
             v-bind="$attrs"
@@ -82,6 +83,7 @@
                 newValue: this.value,
                 newType: this.type,
                 newAutocomplete: this.autocomplete || config.defaultInputAutocomplete,
+                newSpellcheck: this.spellcheck || config.defaultInputSpellcheck,
                 isPasswordVisible: false,
                 _elementRef: this.type === 'textarea'
                     ? 'textarea'
